@@ -3,7 +3,7 @@
 ## Summary
 
 ## In Scope
-1. [testAuction.sol](https://gist.github.com/yuriy77k/edf8b3bcddbc3d43967f5765edf4727e#file-testauction-sol-L87)
+1. [testAuction.sol](https://gist.github.com/yuriy77k/edf8b3bcddbc3d43967f5765edf4727e#file-testauction-sol)
 
 ## Finding
 
