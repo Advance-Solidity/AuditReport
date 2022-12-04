@@ -182,6 +182,8 @@ Severity: optimazition
 
 Description
 
+STATE VARIABLES ONLY SET IN THE CONSTRUCTOR SHOULD BE DECLARED IMMUTABLE
+
 Saving Storage Costs with Immutables.
 
 
