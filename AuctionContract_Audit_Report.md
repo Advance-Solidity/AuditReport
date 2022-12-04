@@ -11,34 +11,16 @@
    
 | **Vulnerability** | **severity** | 
 | --------------- | --------------- |
-| Row 1 Column 1 | Row 1 Column 2 | 
-| Row 2 Column 1 | Row 2 Column 2 |
-| Row 3 Column 1 | Row 3 Column 2 |
-| Row 1 Column 1 | Row 1 Column 2 | 
-| Row 2 Column 1 | Row 2 Column 2 |
-| Row 3 Column 1 | Row 3 Column 2 |
-| Row 1 Column 1 | Row 1 Column 2 | 
-| Row 2 Column 1 | Row 2 Column 2 |
-| Row 3 Column 1 | Row 3 Column 2 |
-| Row 1 Column 1 | Row 1 Column 2 | 
-| Row 2 Column 1 | Row 2 Column 2 |
-| Row 3 Column 1 | Row 3 Column 2 |
+|Floating Pragma |low| 
+| Divide before multiply | Medium |
+|Reentrancy | high |
+| Unchecked transfer | High  | 
+| Boolean equality | Informational |
+|  Call inside loop|low |
+|Missing events access control | low| 
+| TimeStamp dependency | low |
+
    
- • Re-entrancy
-   
- • Timestamp Dependence
-
-
-• Compiler version not fixed
-
-• Address hardcoded
-
-• Divide before multiply
-
-
-
-⚫ERC20 transfer() does not return boolean .
-
 
 
    
@@ -46,7 +28,7 @@
 ## Security issues
 
 ### 1. Floating Pragma
-   Severity: 
+   Severity: low
 
 
    Description
@@ -217,7 +199,7 @@ Avoid relying on block.timestamp.
 
 --------------
 
-### 9. immutable variable
+### 9. immutablity
 Severity: optimazition
 
 
@@ -290,19 +272,6 @@ use modifier to check/verify condition pre/post function exicution
 
 
 
-#################################################################
-
-
-
-In total, 7 issues were reported including:
-
-2 medium severity issues.
-
-4 low severity issues.
-
-1 minor observation.
-
-No critical security issues were found.
 
 
 ## Conclusion
