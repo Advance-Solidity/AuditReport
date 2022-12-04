@@ -7,15 +7,15 @@
 ## Security issues
 
 ### 1. Floating Pragma
-Severity: 
+   Severity: 
 
 
-Description
+   Description
 
-Detailed description can be found [here](https://swcregistry.io/docs/SWC-103)
+   Detailed description can be found [here](https://swcregistry.io/docs/SWC-103)
 
 
-Recommendation
+   Recommendation
 
 ---------------------
 
