@@ -198,6 +198,35 @@ Some variable are never updated after deployed. so for these variable make immut
 
 --------------------------
 
+### 10. Extra gas use in for loop
+Severity: low
+
+Issue
+
+        for (uint256 i = 0; i < addressList.length; i++) {
+          \\
+          \\
+          }
+
+
+Description
+
+Detailed description can be found [here]([https://swcregistry.io/docs/SWC-103](https://hackmd.io/@totomanov/gas-optimization-loops))
+
+
+Recommendation
+
+    uint length=addressList.length;
+    for (uint256 i; i < length; ++i) {
+           \\
+           \\
+           }
+
+------------------------------------------
+
+
+
+
 
 #################################################################
 
