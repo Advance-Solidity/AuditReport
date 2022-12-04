@@ -2,7 +2,46 @@
 
 ## Summary
 
+## In Scope
+1. [testAuction.sol](https://gist.github.com/yuriy77k/edf8b3bcddbc3d43967f5765edf4727e#file-testauction-sol-L87)
+
 ## Finding
+
+   Here are some of commonly known and more vulnerability found.
+   
+| **Vulnerability** | **severity** | 
+| --------------- | --------------- |
+| Row 1 Column 1 | Row 1 Column 2 | 
+| Row 2 Column 1 | Row 2 Column 2 |
+| Row 3 Column 1 | Row 3 Column 2 |
+| Row 1 Column 1 | Row 1 Column 2 | 
+| Row 2 Column 1 | Row 2 Column 2 |
+| Row 3 Column 1 | Row 3 Column 2 |
+| Row 1 Column 1 | Row 1 Column 2 | 
+| Row 2 Column 1 | Row 2 Column 2 |
+| Row 3 Column 1 | Row 3 Column 2 |
+| Row 1 Column 1 | Row 1 Column 2 | 
+| Row 2 Column 1 | Row 2 Column 2 |
+| Row 3 Column 1 | Row 3 Column 2 |
+   
+ • Re-entrancy
+   
+ • Timestamp Dependence
+
+
+• Compiler version not fixed
+
+• Address hardcoded
+
+• Divide before multiply
+
+
+
+⚫ERC20 transfer() does not return boolean .
+
+
+
+   
 
 ## Security issues
 
@@ -26,8 +65,9 @@ Severity: Medium
 Description:
 
  In Solidity integer division might truncate data. Unless the limit of a smaller type makes this problematic, rearranging math such that multiplication comes before division is typically a smart idea.
-
-Detailed description can be found [here](https://github.com/crytic/slither/wiki/Detector-Documentation#divide-before-multiply)
+ 
+ 
+[issue](https://gist.github.com/yuriy77k/edf8b3bcddbc3d43967f5765edf4727e#file-testauction-sol-L87)
 
       In function claimTokens(){
         //
@@ -37,6 +77,7 @@ Detailed description can be found [here](https://github.com/crytic/slither/wiki/
       //
       }
 
+Detailed description can be found [here](https://github.com/crytic/slither/wiki/Detector-Documentation#divide-before-multiply)
 
 Recommendation
 
