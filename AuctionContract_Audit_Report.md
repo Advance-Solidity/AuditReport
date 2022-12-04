@@ -76,7 +76,7 @@ Description:
 
 The return value of an external transfer/transferFrom call is not checked
 
-Detailed description can be found [here](https://swcregistry.io/docs/SWC-103)
+Detailed description can be found [here](https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-transfer)
 
    
       
@@ -177,7 +177,7 @@ Avoid relying on block.timestamp.
 --------------
 
 ### 9. immutable variable
-Severity: informational
+Severity: optimazition
 
 
 Description
