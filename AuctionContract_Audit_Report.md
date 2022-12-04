@@ -224,7 +224,26 @@ Recommendation
 
 ------------------------------------------
 
+### 11. Use modifier
+Severity: optimization
 
+issue
+                  
+    function depositeAuction(){
+    checkConditions(_amount);
+    }
+
+
+Description
+
+
+
+Detailed description can be found [here](https://swcregistry.io/docs/SWC-103)
+
+
+Recommendation
+
+use modifier to check/verify condition pre/post function exicution
 
 
 
