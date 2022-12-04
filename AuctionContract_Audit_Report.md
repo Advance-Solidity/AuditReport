@@ -97,7 +97,7 @@ Description
 
 Boolean constants can be used directly and do not need to be compare to true or false.
 
-Detailed description can be found [here](https://swcregistry.io/docs/SWC-103)
+Detailed description can be found [here](https://github.com/crytic/slither/wiki/Detector-Documentation#boolean-equality)
 
 
      function checkConditions(uint256 _amount) internal view {
@@ -211,7 +211,7 @@ Issue
 
 Description
 
-Detailed description can be found [here]([https://swcregistry.io/docs/SWC-103](https://hackmd.io/@totomanov/gas-optimization-loops))
+Detailed description can be found [here](https://hackmd.io/@totomanov/gas-optimization-loops)
 
 
 Recommendation
