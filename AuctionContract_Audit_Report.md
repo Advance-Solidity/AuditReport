@@ -2,6 +2,9 @@
 
 ## Summary
 
+An auction smart contract is a self-executing agreement between the Owner and fundraisers,on which the process is automated and put into the blockchain ecosystem to be made transparent.
+The minimal amount that an initial coin offering (ICO) must raise is referred to as a "softCap." Users can deposite their money during auction. The ICO may be discontinued and the monies gathered refunded to participants if it is unable to raise that amount.
+
 ## In Scope
 1. [testAuction.sol](https://gist.github.com/yuriy77k/edf8b3bcddbc3d43967f5765edf4727e#file-testauction-sol)
 
