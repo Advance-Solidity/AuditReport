@@ -31,7 +31,9 @@
    Severity: low
 
 
-   Description
+   Description:
+   
+By locking the pragma, contracts are prevented from unintentionally being deployed with the latest compiler, which may involve a high risk of unknown bugs. Contracts may also be deployed by others and the pragma indicates the compiler version intended by the original authors.
 
    Detailed description can be found [here](https://swcregistry.io/docs/SWC-103)
 
@@ -73,7 +75,7 @@ Severity: high
 
 Description
 
-Detailed description can be found [here](https://swcregistry.io/docs/SWC-107)
+Detailed description can be found [here](https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities)
 
      function refundAll(){
       //
@@ -162,7 +164,7 @@ Description
 
 Detect missing events for critical access control parameters.
 
-Detailed description can be found [here](https://swcregistry.io/docs/SWC-103)
+
 
     function depositAuction(uint256 _amount, bool _isUSDT) external payable {
             checkConditions(_amount);
@@ -190,7 +192,7 @@ Dangerous usage of block.timestamp. block.timestamp can be manipulated by miners
 
 
 
-Detailed description can be found [here](https://swcregistry.io/docs/SWC-103)
+Detailed description can be found [here](https://github.com/crytic/slither/wiki/Detector-Documentation#block-timestamp)
 
 
 Recommendation
@@ -262,8 +264,6 @@ issue
 Description
 
 
-
-Detailed description can be found [here](https://swcregistry.io/docs/SWC-103)
 
 
 Recommendation
