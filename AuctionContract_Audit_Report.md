@@ -275,3 +275,5 @@ use modifier to check/verify condition pre/post function exicution
 
 
 ## Conclusion
+
+There were several faults that were of High and Medium severity. Additionally, several recommendations and best practices are given in order to enhance the security posture and code quality.
