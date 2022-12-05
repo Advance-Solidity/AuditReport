@@ -8,6 +8,9 @@ The minimal amount that an initial coin offering (ICO) must raise is referred to
 ## In Scope
 1. [testAuction.sol](https://gist.github.com/yuriy77k/edf8b3bcddbc3d43967f5765edf4727e#file-testauction-sol)
 
+      Excluded:
+         `IERC20 transfer` function has not checked due to interface contract of ERC20.
+
 ## Finding
 
    Here are some of commonly known and more vulnerability found.
