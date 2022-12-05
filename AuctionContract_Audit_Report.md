@@ -153,7 +153,7 @@ Calls inside a loop might lead to a denial-of-service attack.
 
 If one of the destinations has a fallback function that reverts, `bad` will always revert.
 
-Detailed description can be found [here](https://swcregistry.io/docs/SWC-103)
+Detailed description can be found [here](https://medium.com/@Knownsec_Blockchain_Lab/in-depth-understanding-of-denial-of-service-vulnerabilities-dd437b1d7a1c#:~:text=In%20Solidity%2C%20a%20DoS%20vulnerability,original%20contract%20code%20logic%20unworkable.)
 
 
 Recommendation
